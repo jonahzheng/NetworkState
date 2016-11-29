@@ -35,7 +35,7 @@ end;
 
 function TPlatformNetworkState.IsConnected: Boolean;
 begin
-  if not InternetCheckConnection('http://121.40.66.108/', 1, 0) then
+  if not InternetCheckConnection('http://www.bidu.com/', 1, 0) then
   begin
     if not InternetCheckConnection('http://www.360.com/', 1, 0) then
     begin
@@ -52,7 +52,7 @@ begin
 //      strReturn: string;
 //    begin
 //      strReturn := '1';
-//      if not InternetCheckConnection('http://121.40.66.108/', 1, 0) then
+//      if not InternetCheckConnection('http://www.bidu.com/', 1, 0) then
 //      begin
 //        if not InternetCheckConnection('http://www.360.com/', 1, 0) then
 //        begin
